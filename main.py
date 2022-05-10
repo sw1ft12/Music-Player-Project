@@ -11,7 +11,7 @@ playlist = os.listdir('Playlist')
 currIndex = 0
 state = False
 
-""""
+"""
 class ProgressBar:
     def __init__(self, window):
         super().__init__(window)
@@ -281,8 +281,8 @@ class MainWindow:
         window.geometry('560x460')
         window.title('Music Player')
         window.resizable(width=False, height=False)
-        window.iconbitmap('images/music_icon.ico')
-        window.image = PhotoImage(file='images/bg1.png')
+        #window.iconbitmap('Images/music_icon.ico')
+        window.image = PhotoImage(file='Images/bg1.gif')
         background_label = Label(window, image=window.image)
         background_label.pack()
 
