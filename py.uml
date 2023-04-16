@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#C:/Users/мвидео/PycharmProjects/TP/main.py</OriginalElement>
+  <nodes>
+    <node x="884.9999999999999" y="302.0">abc.ABCMeta</node>
+    <node x="1536.0" y="748.0">main.MainWindow</node>
+    <node x="253.9999999999999" y="1178.5">main.SettingsCascade</node>
+    <node x="761.9999999999999" y="1178.5">main.ExitCascade</node>
+    <node x="1188.0" y="1189.5">main.PlayButton</node>
+    <node x="1406.0" y="974.0">main.Btn</node>
+    <node x="434.1275510204081" y="952.0">main.Cascade</node>
+    <node x="1130.0" y="1360.0">main.PrevButton</node>
+    <node x="0.0" y="1167.0">main.FileCascade</node>
+    <node x="1016.9999999999999" y="974.0">main.ScaleBtn</node>
+    <node x="1049.0" y="794.0">abc.ABC</node>
+    <node x="1404.0" y="1200.5">main.PauseButton</node>
+    <node x="507.9999999999999" y="1178.5">main.HelpCascade</node>
+    <node x="1738.0" y="781.5">main.MenuBar</node>
+    <node x="1370.0" y="715.0">main.Controls</node>
+    <node x="1187.75" y="770.5">main.MainApp</node>
+    <node x="1373.5" y="0.0">typing.Hashable</node>
+    <node x="1296.0" y="1360.0">main.NextButton</node>
+    <node x="1309.0" y="104.0">object</node>
+    <node x="1574.0" y="1189.0">main.RepeatButton</node>
+    <node x="1015.9999999999999" y="1200.5">main.VolumeScale</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="abc.ABC" target="object" relationship="REALIZATION">
+      <point x="21.5" y="-14.5" />
+      <point x="1113.5" y="690.0" />
+      <point x="1443.0" y="690.0" />
+      <point x="0.0" y="280.5" />
+    </edge>
+    <edge source="object" target="typing.Hashable" relationship="INTERFACE">
+      <point x="0.0" y="-280.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="main.MenuBar" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="1811.0" y="690.0" />
+      <point x="1443.0" y="690.0" />
+      <point x="0.0" y="280.5" />
+    </edge>
+    <edge source="main.RepeatButton" target="main.Btn" relationship="REALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="1652.5" y="1142.0" />
+      <point x="1479.0" y="1142.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="main.SettingsCascade" target="main.Cascade" relationship="REALIZATION">
+      <point x="0.0" y="-60.0" />
+      <point x="370.9999999999999" y="1142.0" />
+      <point x="551.1275510204081" y="1142.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="main.Btn" target="abc.ABC" relationship="REALIZATION">
+      <point x="0.0" y="-60.5" />
+      <point x="1479.0" y="927.0" />
+      <point x="1092.0" y="927.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="main.ScaleBtn" target="abc.ABC" relationship="REALIZATION">
+      <point x="0.0" y="-60.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="main.FileCascade" target="main.Cascade" relationship="REALIZATION">
+      <point x="0.0" y="-71.5" />
+      <point x="117.0" y="1142.0" />
+      <point x="551.1275510204081" y="1142.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="main.PauseButton" target="main.Btn" relationship="REALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="main.PlayButton" target="main.Btn" relationship="REALIZATION">
+      <point x="0.0" y="-49.0" />
+      <point x="1286.0" y="1142.0" />
+      <point x="1479.0" y="1142.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="main.ExitCascade" target="main.Cascade" relationship="REALIZATION">
+      <point x="0.0" y="-60.0" />
+      <point x="878.9999999999999" y="1142.0" />
+      <point x="551.1275510204081" y="1142.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="abc.ABC" target="abc.ABCMeta" relationship="INSTANCEOF">
+      <point x="-21.5" y="-14.5" />
+      <point x="1070.5" y="690.0" />
+      <point x="1087.0" y="690.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="main.Cascade" target="abc.ABC" relationship="REALIZATION">
+      <point x="0.0" y="-82.5" />
+      <point x="551.1275510204081" y="927.0" />
+      <point x="1092.0" y="927.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="main.HelpCascade" target="main.Cascade" relationship="REALIZATION">
+      <point x="0.0" y="-60.0" />
+      <point x="624.9999999999999" y="1142.0" />
+      <point x="551.1275510204081" y="1142.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="main.NextButton" target="main.PlayButton" relationship="REALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="1369.0" y="1335.0" />
+      <point x="1286.0" y="1335.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="main.VolumeScale" target="main.ScaleBtn" relationship="REALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="main.MainApp" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="1260.75" y="690.0" />
+      <point x="1443.0" y="690.0" />
+      <point x="0.0" y="280.5" />
+    </edge>
+    <edge source="main.Controls" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-93.5" />
+      <point x="0.0" y="280.5" />
+    </edge>
+    <edge source="main.PrevButton" target="main.PlayButton" relationship="REALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="1203.0" y="1335.0" />
+      <point x="1286.0" y="1335.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="main.MainWindow" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-60.5" />
+      <point x="1627.0" y="690.0" />
+      <point x="1443.0" y="690.0" />
+      <point x="0.0" y="280.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.2994505494505495" showDependencies="false" x="1485.392585218865" y="689.9280583281768" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+
